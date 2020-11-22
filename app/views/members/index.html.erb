@@ -1,0 +1,94 @@
+<nav>
+  <ul>
+    <li><%= link_to "Strona glowna", "/welcome/index" %></li>
+    <li><%= link_to "Lista ksiazek", "/books/index"%></li>
+    <li><%= active_link_to "Czlonkowie", "/members/index"%></li>
+    <li><%= link_to "Wypozyczenia", "/borrows/index"%></li>
+  </ul>
+</nav>
+<main><h2>Lista czlonkow</h2>
+  <table class="table-list">
+    <thead>
+    <tr>
+      <th>Imię</th>
+      <th>Nazwisko</th>
+      <th>E-mail</th>
+      <th>Akcje</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Jan</td>
+      <td>Kowalski</td>
+      <td>jan@gmail.com</td>
+      <td>
+        <ul class="list-actions">
+          <li>
+            <a href="" class="list-actions-button-details">Szczegóły</a>
+          </li>
+          <li>
+            <a href="" class="list-actions-button-edit">Edytuj</a>
+          </li>
+          <li>
+            <a href="" class="list-actions-button-delete">Usuń</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Ewelina</td>
+      <td>Kania</td>
+      <td>ewwka@biblioteka.com</td>
+      <td>
+        <ul class="list-actions">
+          <li>
+            <a href="" class="list-actions-button-details">Szczegóły</a>
+          </li>
+          <li>
+            <a href="" class="list-actions-button-edit">Edytuj</a>
+          </li>
+          <li>
+            <a href="" class="list-actions-button-delete">Usuń</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Robert</td>
+      <td>Swatek</td>
+      <td>robs@biblioteka.com</td>
+      <td>
+        <ul class="list-actions">
+          <li>
+            <a href="" class="list-actions-button-details">Szczegóły</a>
+          </li>
+          <li>
+            <a href="" class="list-actions-button-edit">Edytuj</a>
+          </li>
+          <li>
+            <a href="" class="list-actions-button-delete">Usuń</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Aleksander</td>
+      <td>Wielki</td>
+      <td>dbest@biblioteka.com</td>
+      <td>
+        <ul class="list-actions">
+          <li>
+            <a href="" class="list-actions-button-details">Szczegóły</a>
+          </li>
+          <li>
+            <a href="" class="list-actions-button-edit">Edytuj</a>
+          </li>
+          <li>
+            <a href="" class="list-actions-button-delete">Usuń</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <p></p></main>

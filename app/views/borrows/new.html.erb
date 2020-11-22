@@ -1,0 +1,43 @@
+<nav>
+  <ul>
+    <li><%= link_to "Strona glowna", "/welcome/index" %></li>
+    <li><%= link_to "Lista ksiazek", "/books/index"%></li>
+    <li><%= link_to "Czlonkowie", "/members/index"%></li>
+    <li><%= active_link_to "Wypozyczenia", "/borrows/index"%></li>
+  </ul>
+</nav>
+<main><h2>Wypozycz</h2>
+  <form class="form">
+
+      <label for="firstName">Ksiazka:<abbr title="required" aria-label="required">*</abbr></label>
+      <select id="title-select">
+        <option value="">--Wybierz ksiazke--</option>
+        <option value="Harry Potter">Harry Potter</option>
+        <option value="Lord of The rings">Lord Of The Rings</option>
+      </select>
+
+
+
+      <label for="lastName">Czlonek:<abbr title="required" aria-label="required">*</abbr></label>
+      <select id="title-select">
+        <option value="">--Wybierz czlonka--</option>
+        <option value="Jan Kowalski">Jan Kowalski</option>
+        <option value="Ewelina Kania">Ewelina Kania</option>
+        <option value="Robert Swatek">Robert Swatek</option>
+        <option value="Aleksander Wielki">Aleksander Wielki</option>
+      </select>
+
+
+      <label for="iledni">Ilosc dni:<abbr title="required" aria-label="required">*</abbr></label>
+      <input type="number" id="iledni" name="iledni"
+             min="10" max="30">
+    </div>
+
+      <label for="start">Wypozyczenie od:</label>
+      <input type="date" id="start" name="trip-start"></div>
+    <div class="form-buttons">
+      <input type="submit" value="Dodaj" class="form-button-submit"/>
+      <%= link_to "Anuluj", "/borrows/index", class: "form-button-cancel" %>
+
+  </form>
+  <p></p></main>

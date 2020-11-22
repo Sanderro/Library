@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Biblioteka</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <style>
+        @media all and (max-width: 720px) {
+            header {
+                flex-direction: column;
+            }
+            header {
+                flex-direction: column;
+            }
+            header img {
+                align-self: center;
+            }
+            nav ul {
+                flex-wrap: wrap;
+            }
+            nav ul li {
+                flex-basis: 50%;
+                text-align: center;
+            }
+
+
+            nav ul li a {
+                display: block;
+            }
+
+            .form {
+                grid-template-columns: 1fr;
+                row-gap:unset;
+                margin-left: unset;
+            }
+            .form input[type="text"],
+            .form input[type="number"],
+            .form input[type="date"],
+            .form select {
+                margin-bottom: 1rem;
+            }
+
+
+
+
+
+        }
+        @media all and (max-width: 400px) {
+            body,
+            nav,
+            nav ul,
+            header,
+            main,
+            footer {
+                margin: 0;
+            }
+            nav ul li {
+                flex-basis: 100%;
+            }
+
+
+        }
+
+
+
+    </style>
+
+  </head>
+
+  <body>
+  <header>
+  <h1>Biblioteka</h1>
+  <%= image_tag("logo.png", size: "200x150", alt: "Edit Entry", class: "logo biblioteki") %>
+  </header>
+
+  <%= yield %>
+
+
+  <footer>
+    Aleksandros Kifonidis s5554
+  </footer>
+  </body>
+</html>
