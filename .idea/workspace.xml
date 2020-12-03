@@ -13,12 +13,8 @@
     <list default="true" id="59f973df-546a-40ba-b0d9-d4ad1289c5fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/member.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/member.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/model.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/books/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20201203194728_devise_create_models.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/fixtures/members.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/members.yml" afterDir="false" />
@@ -158,7 +154,7 @@
       <workItem from="1605622779961" duration="531000" />
       <workItem from="1605623744240" duration="11592000" />
       <workItem from="1606040561304" duration="2718000" />
-      <workItem from="1607031190759" duration="2375000" />
+      <workItem from="1607031190759" duration="2913000" />
     </task>
     <servers />
   </component>

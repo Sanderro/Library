@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :models
+  devise_for :members
   devise_for :admins
   get 'borrows/index'
   get 'borrows/show'
