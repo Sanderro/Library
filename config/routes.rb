@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :models
+  devise_for :admins
   get 'borrows/index'
   get 'borrows/show'
   get 'borrows/new'
@@ -14,7 +16,7 @@ Rails.application.routes.draw do
   get 'books/edit'
   get 'books/borrow'
 
-  root 'books#index'
+  root 'welcome#index'
   resources :books
   resources :borrows
   resources :members

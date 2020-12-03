@@ -1,9 +1,15 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  odkiedy: MyString
-  dokiedy: MyString
+  borrowid: 1
+  memberid: 1
+  bookid: 1
+  datefrom: 2020-12-03
+  dateto: 2020-12-03
 
 two:
-  odkiedy: MyString
-  dokiedy: MyString
+  borrowid: 1
+  memberid: 1
+  bookid: 1
+  datefrom: 2020-12-03
+  dateto: 2020-12-03
