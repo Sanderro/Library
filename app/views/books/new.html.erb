@@ -26,20 +26,7 @@
     </div>
     <% end %>
   <form class="form">
-
-      <label for="firstName">Tytul:<abbr title="required" aria-label="required">*</abbr></label>
-      <input type="text" name="firstName" id="firstName" value="Slepa Plama" disabled>
-
-
-      <label for="lastName">Autor:<abbr title="required" aria-label="required">*</abbr></label>
-      <input type="text" name="lastname" id="lastName" value="Noczkin" disabled>
-
-
-      <label for="email">Kategoria:<abbr title="required" aria-label="required">*</abbr></label>
-      <input type="text" name="email" id="email" value="fantasy" disabled>
-
     <div class="form-buttons">
-      <input type="submit" value="Dodaj" class="form-button-submit"/>
       <%= link_to "Anuluj", "/books/index", class: "form-button-cancel" %>
     </div>
   </form>
