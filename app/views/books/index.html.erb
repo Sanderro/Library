@@ -8,24 +8,18 @@
 </nav>
 <main><h2>Lista ksiazek</h2>
   <p><table class="table-list">
+
   <thead>
   <tr>
     <th>Tytul</th>
-    <th>Autor</th>
-    <th>Kategoria</th>
   </tr>
   </thead>
   <tbody>
+  <% @books.each do |book| %>
   <tr>
-    <td>Lord Of The Rings</td>
-    <td>Tolkien</td>
-    <td>fantasy</td>
+    <td><%= book.title %></td>
   </tr>
-  <tr>
-    <td>Harry Potter</td>
-    <td>Rowling</td>
-    <td>fantasy</td>
-  </tr>
+  <%end%>
   </tbody>
 </table>
   <div><p><%= link_to "Dodaj ksiazke", "/books/new", class: "button-add" %></p></div>
