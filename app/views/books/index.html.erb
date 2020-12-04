@@ -12,12 +12,14 @@
   <thead>
   <tr>
     <th>Tytul</th>
+    <th>Szczegoly</th>
   </tr>
   </thead>
   <tbody>
   <% @books.each do |book| %>
   <tr>
     <td><%= book.title %></td>
+    <td><%= link_to " pokaz", "/books/#{book.id}"%></td>
   </tr>
   <%end%>
   </tbody>
