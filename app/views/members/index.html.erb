@@ -10,85 +10,32 @@
   <table class="table-list">
     <thead>
     <tr>
-      <th>Imię</th>
+      <th>Imie</th>
       <th>Nazwisko</th>
-      <th>E-mail</th>
-      <th>Akcje</th>
+      <th>Email</th>
     </tr>
     </thead>
     <tbody>
-    <tr>
-      <td>Jan</td>
-      <td>Kowalski</td>
-      <td>jan@gmail.com</td>
-      <td>
-        <ul class="list-actions">
+    <% @members.each do |member| %>
+      <tr>
+        <td><%= member.firstname %></td>
+        <td><%= member.lastname %></td>
+        <td><%= member.email %></td>
+        <td><ul class="list-actions">
           <li>
-            <a href="" class="list-actions-button-details">Szczegóły</a>
+            <%= link_to "Szczegoly", "/members/#{member.id}"%>
           </li>
           <li>
-            <a href="" class="list-actions-button-edit">Edytuj</a>
+            <%= link_to "Edytuj", edit_member_path(member.id) %>
+
           </li>
           <li>
-            <a href="" class="list-actions-button-delete">Usuń</a>
+            <%= link_to "Usun", "/members/#{member.id}", method: :delete, data: { confirm: "Usunac?"} %>
           </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Ewelina</td>
-      <td>Kania</td>
-      <td>ewwka@biblioteka.com</td>
-      <td>
-        <ul class="list-actions">
-          <li>
-            <a href="" class="list-actions-button-details">Szczegóły</a>
-          </li>
-          <li>
-            <a href="" class="list-actions-button-edit">Edytuj</a>
-          </li>
-          <li>
-            <a href="" class="list-actions-button-delete">Usuń</a>
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Robert</td>
-      <td>Swatek</td>
-      <td>robs@biblioteka.com</td>
-      <td>
-        <ul class="list-actions">
-          <li>
-            <a href="" class="list-actions-button-details">Szczegóły</a>
-          </li>
-          <li>
-            <a href="" class="list-actions-button-edit">Edytuj</a>
-          </li>
-          <li>
-            <a href="" class="list-actions-button-delete">Usuń</a>
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Aleksander</td>
-      <td>Wielki</td>
-      <td>dbest@biblioteka.com</td>
-      <td>
-        <ul class="list-actions">
-          <li>
-            <a href="" class="list-actions-button-details">Szczegóły</a>
-          </li>
-          <li>
-            <a href="" class="list-actions-button-edit">Edytuj</a>
-          </li>
-          <li>
-            <a href="" class="list-actions-button-delete">Usuń</a>
-          </li>
-        </ul>
-      </td>
-    </tr>
+        </ul></td>
+      </tr>
+    <%end%>
     </tbody>
   </table>
+  <div><p><%= link_to "Dodaj uzytkownika", "/members/new", class: "button-add" %></p></div>
   <p></p></main>
