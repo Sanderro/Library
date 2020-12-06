@@ -1,2 +1,35 @@
-<h1>Books#edit</h1>
-<p>Find me in app/views/books/edit.html.erb</p>
+<nav>
+  <ul>
+    <li><%= link_to "Strona glowna", "/welcome/index" %></li>
+    <li><%= active_link_to "Lista ksiazek", "/books/index"%></li>
+    <li><%= link_to "Czlonkowie", "/members/index"%></li>
+    <li><%= link_to "Wypozyczenia", "/borrows/index"%></li>
+  </ul>
+</nav>
+<main><h2>Edytuj ksiazke</h2>
+
+  <%= form_with model: @book do |form| %>
+    <div>
+      <%= form.label :title %><br>
+      <%= form.text_field :title %>
+    </div>
+    <div>
+      <%= form.label :author %><br>
+      <%= form.text_field :author %>
+    </div>
+    <div>
+      <%= form.label :category %><br>
+      <%= form.text_field :category %>
+      <div>
+        <%= form.submit "Aktualizuj"%>
+      </div>
+    </div>
+  <% end %>
+  <form class="form">
+    <div class="form-buttons">
+      <%= link_to "Anuluj", "/books/index", class: "form-button-cancel" %>
+    </div>
+  </form>
+  <p></p>
+</main>
+

@@ -12,14 +12,23 @@
   <thead>
   <tr>
     <th>Tytul</th>
-    <th>Szczegoly</th>
+    <th>Akcje</th>
   </tr>
   </thead>
   <tbody>
   <% @books.each do |book| %>
   <tr>
     <td><%= book.title %></td>
-    <td><%= link_to " pokaz", "/books/#{book.id}"%></td>
+    <td><ul class="list-actions">
+      <li>
+        <%= link_to "Szczegoly", "/books/#{book.id}"%></li>
+      <li>
+        <%= link_to "Edytuj", "/books/#{book.id}/edit" %>
+      </li>
+      <li>
+        <%= link_to "Usun", "/books/#{book.id}", method: :delete, data: { confirm: "Usunac?"} %>
+      </li>
+    </ul></td>
   </tr>
   <%end%>
   </tbody>
