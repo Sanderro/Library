@@ -23,7 +23,8 @@
       <li>
         <%= link_to "Szczegoly", "/books/#{book.id}"%></li>
       <li>
-        <%= link_to "Edytuj", "/books/#{book.id}/edit" %>
+        <%= link_to "Edytuj", edit_book_path(book.id) %>
+
       </li>
       <li>
         <%= link_to "Usun", "/books/#{book.id}", method: :delete, data: { confirm: "Usunac?"} %>
