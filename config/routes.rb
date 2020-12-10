@@ -16,9 +16,7 @@ Rails.application.routes.draw do
   get 'books/edit'
   get 'books/borrow'
 
-  root 'welcome#index'
-  resources :books
-  resources :borrows
-  resources :members
+  root to: 'welcome#index'
+  resources :books, :borrows, :members
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
