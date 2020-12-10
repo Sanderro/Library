@@ -12,7 +12,7 @@ class MembersController < ApplicationController
   end
 
   def create
-    @member = Member.new(book_params)
+    @member = Member.new(member_params)
 
     if @member.save
       redirect_to @member

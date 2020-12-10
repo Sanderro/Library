@@ -11,9 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59f973df-546a-40ba-b0d9-d4ad1289c5fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/members_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/members_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/books/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/members/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/members/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
@@ -32,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -156,7 +157,10 @@
       <workItem from="1607212474715" duration="2455000" />
       <workItem from="1607219109763" duration="534000" />
       <workItem from="1607246300315" duration="3080000" />
-      <workItem from="1607251541223" duration="722000" />
+      <workItem from="1607251541223" duration="967000" />
+      <workItem from="1607530420101" duration="137000" />
+      <workItem from="1607530688840" duration="1389000" />
+      <workItem from="1607557193315" duration="1497000" />
     </task>
     <servers />
   </component>
