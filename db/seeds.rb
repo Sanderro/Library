@@ -10,7 +10,7 @@ Book.create(title: 'The Hobbit', author: 'J.R.R. Tolkien', category: 'fantasy')
 Book.create(title: 'Lord of The Rings', author: 'J.R.R. Tolkien', category: 'fantasy')
 Book.create(title: 'Last of Tanith', author: 'Dan Abnett', category: 'dark fantasy')
 Member.create(email: 'janekk@gmail.com', firstname: 'Jan', lastname: 'Kowalski', password: '111', password_confirmation: '111')
-Member.create(firstname: 'Agnieszka', lastname: 'Wojcik', email: 'agaw@gmail.com', password: '222', password_confirmation: '222')
-Member.create(firstname: 'Sebastian', lastname: 'Krawies', email: 'kraw@gmail.com', password: '333', password_confirmation: '333')
+Member.create(email: 'agaw@gmail.com', firstname: 'Agnieszka', lastname: 'Wojcik', password: '222', password_confirmation: '222')
+Member.create(email: 'kraw@gmail.com',firstname: 'Sebastian', lastname: 'Krawies', password: '333', password_confirmation: '333')
 
 

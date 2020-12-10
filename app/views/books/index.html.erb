@@ -21,14 +21,19 @@
     <td><%= book.title %></td>
     <td><ul class="list-actions">
       <li>
-        <%= link_to "Szczegoly", "/books/#{book.id}"%>
+        <%= button_to "/books/#{book.id}", action: 'show',  type: 'button', class: "list-actions-button-details", method: 'get' do
+          "Szczegoly"
+        end%>
       </li>
       <li>
-        <%= link_to "Edytuj", edit_book_path(book.id) %>
-
+        <%= button_to edit_book_path(book.id), action: 'edit',  type: 'button', class: "list-actions-button-edit", method: 'get' do
+          "Edytuj"
+        end%>
       </li>
       <li>
-        <%= link_to "Usun", "/books/#{book.id}", method: :delete, data: { confirm: "Usunac?"} %>
+        <%= button_to book_path(book.id), action: 'destroy', method: :delete,  type: 'button', class: "list-actions-button-delete", data: { confirm: "Usunac?"} do
+          "Usun"
+        end%>
       </li>
     </ul></td>
   </tr>
