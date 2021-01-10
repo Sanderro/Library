@@ -5,6 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Book.destroy_all
+Member.destroy_all
 Book.create(title: 'Harry Potter', author: 'J.K. Rowling', category: 'fantasy')
 Book.create(title: 'The Hobbit', author: 'J.R.R. Tolkien', category: 'fantasy')
 Book.create(title: 'Lord of The Rings', author: 'J.R.R. Tolkien', category: 'fantasy')

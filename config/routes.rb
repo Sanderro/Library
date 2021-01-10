@@ -1,15 +1,12 @@
 Rails.application.routes.draw do
   devise_for :members
   devise_for :admins
+
   get 'borrows/index'
   get 'borrows/show'
   get 'borrows/new'
   get 'borrows/edit'
   get 'welcome/index'
-  get 'members/index'
-  get 'members/show'
-  get 'members/new'
-  get 'members/edit'
   get 'books/index'
   get 'books/show'
   get 'books/new'

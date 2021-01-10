@@ -6,6 +6,8 @@
     <li><%= active_link_to "Wypozyczenia", "/borrows/index"%></li>
   </ul>
 </nav>
+<% if member_signed_in?%>
+  <%= current_member.email %>
 <main><h2>Wypozycz</h2>
   <form class="form">
 
@@ -41,3 +43,4 @@
 
   </form>
   <p></p></main>
+<% end %>

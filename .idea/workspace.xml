@@ -12,8 +12,15 @@
   <component name="ChangeListManager">
     <list default="true" id="59f973df-546a-40ba-b0d9-d4ad1289c5fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/members/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/members/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/devise.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/books/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/books/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/books/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/borrows/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/borrows/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/borrows/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/borrows/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +166,9 @@
       <workItem from="1607530420101" duration="137000" />
       <workItem from="1607530688840" duration="1389000" />
       <workItem from="1607557193315" duration="1497000" />
-      <workItem from="1607603119794" duration="10524000" />
+      <workItem from="1607603119794" duration="11425000" />
+      <workItem from="1609868283351" duration="5461000" />
+      <workItem from="1610275373045" duration="1878000" />
     </task>
     <servers />
   </component>

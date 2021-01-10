@@ -6,6 +6,8 @@
     <li><%= link_to "Wypozyczenia", "/borrows/index"%></li>
   </ul>
 </nav>
+<% if member_signed_in?%>
+  <%= current_member.email %>
  <main> <h2>Lista ksiazek</h2>
    <p><table class="table-list">
    <thead>
@@ -26,6 +28,6 @@
    <div>
      <p><%= link_to "Wstecz", "/books/index", class: "button-add" %></p>
    </div></main>
-
+<%end %>
 
 

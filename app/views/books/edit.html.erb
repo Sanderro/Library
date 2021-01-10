@@ -6,6 +6,8 @@
     <li><%= link_to "Wypozyczenia", "/borrows/index"%></li>
   </ul>
 </nav>
+<% if admin_signed_in?%>
+  <%= current_admin.email %>
 <main><h2>Edytuj ksiazke</h2>
 
   <%= form_with model: @book do |form| %>
@@ -32,4 +34,4 @@
   </form>
   <p></p>
 </main>
-
+<%end %>

@@ -6,9 +6,11 @@
     <li><%= link_to "Wypozyczenia", "/borrows/index"%></li>
   </ul>
 </nav>
+<% if member_signed_in?%>
+  <%= current_member.email %>
 <main><h2>Nowa ksiazka</h2>
-
-  <%= form_with model: @book do |form| %>
+  <% if admin_signed_in? %>
+       <%= form_with model: @book do |form| %>
     <div>
       <%= form.label :title %><br>
       <%= form.text_field :title %>
@@ -32,4 +34,5 @@
   </form>
   <p></p>
 </main>
-
+<%end %>
+<%end %>
