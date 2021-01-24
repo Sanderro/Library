@@ -1,8 +1,4 @@
 class MembersController < ApplicationController
-  validates :firstname, length: { maximum: 20}
-  validates :lastname, length: { maximum: 20}
-  validates :email, presence: true, uniqueness: true
-  validates :email, format: Devise.email_regexp
 
   before_action :authenticate_member!
   def index
