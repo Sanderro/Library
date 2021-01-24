@@ -2,12 +2,12 @@
   <ul>
     <li><%= link_to "Strona glowna", "/welcome/index" %></li>
     <li><%= link_to "Lista ksiazek", "/books/index"%></li>
-    <li><%= link_to "Czlonkowie", "/members/index"%></li>
+    <li><%= link_to "Czlonkowie", "/members/"%></li>
     <li><%= active_link_to "Wypozyczenia", "/borrows/index"%></li>
   </ul>
 </nav>
-<% if member_signed_in?%>
-  <%= current_member.email %>
+
+
 <main><h2>Lista wypozyczen</h2>
   <p><table class="table-list">
   <thead>
@@ -41,4 +41,3 @@
 </table>
   <div><p><%= link_to "Wypozycz ksiazke", "/borrows/new", class: "button-add" %></p></div>
 </main>
-<%end %>

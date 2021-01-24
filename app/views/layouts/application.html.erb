@@ -78,10 +78,11 @@
   <h1>Biblioteka</h1>
   <%= image_tag("logo.png", size: "200x150", alt: "Edit Entry", class: "logo biblioteki") %>
       <%= link_to "Zaloguj", "/members/sign_in" %>
+    <% if member_signed_in?%>
+      <%= current_member.email %>
       <%= link_to "Wyloguj", destroy_member_session_path, method: :delete%>
-    <%= current_member %>
 
-
+<%end %>
   </header>
 
   <%= yield %>
