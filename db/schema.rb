@@ -35,13 +35,14 @@ ActiveRecord::Schema.define(version: 2020_12_03_202038) do
   end
 
   create_table "borrows", force: :cascade do |t|
-    t.integer "borrowid"
-    t.integer "memberid"
-    t.integer "bookid"
-    t.date "datefrom"
-    t.date "dateto"
+    t.integer "member_id"
+    t.integer "book_id"
+    t.datetime "datefrom"
+    t.datetime "dateto"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["book_id"], name: "index_borrows_on_book_id"
+    t.index ["member_id"], name: "index_borrows_on_member_id"
   end
 
   create_table "members", force: :cascade do |t|

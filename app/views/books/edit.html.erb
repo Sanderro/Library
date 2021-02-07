@@ -1,7 +1,7 @@
 <nav>
   <ul>
     <li><%= link_to "Strona glowna", "/welcome/index" %></li>
-    <li><%= active_link_to "Lista ksiazek", "/books/index"%></li>
+    <li><%= active_link_to "Lista ksiazek", "/books"%></li>
     <li><%= link_to "Czlonkowie", "/members/index"%></li>
     <li><%= link_to "Wypozyczenia", "/borrows/index"%></li>
   </ul>
@@ -29,7 +29,7 @@
   <% end %>
   <form class="form">
     <div class="form-buttons">
-      <%= link_to "Anuluj", "/books/index", class: "form-button-cancel" %>
+      <%= link_to "Anuluj", "/books", class: "form-button-cancel" %>
     </div>
   </form>
   <p></p>

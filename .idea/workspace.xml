@@ -11,7 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59f973df-546a-40ba-b0d9-d4ad1289c5fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/book.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/book.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/borrow.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/member.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/member.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/books/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/books/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/books/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/members/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/members/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/members/registrations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/members/registrations/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/members/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/members/sessions/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20201203192542_create_borrows.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/borrows.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/borrow_test.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +188,8 @@
       <workItem from="1610275373045" duration="3765000" />
       <workItem from="1611487030453" duration="2798000" />
       <workItem from="1612681694506" duration="2911000" />
-      <workItem from="1612686366018" duration="2711000" />
+      <workItem from="1612686366018" duration="3594000" />
+      <workItem from="1612694055198" duration="5948000" />
     </task>
     <servers />
   </component>

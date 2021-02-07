@@ -7,4 +7,7 @@ class Member < ApplicationRecord
   validates :lastname, length: { maximum: 20}, presence: true
   validates :email, presence: true, uniqueness: true
   validates :email, format: Devise.email_regexp
+  has_one :borrow
+  has_many :books, through: :borrow
+
 end
