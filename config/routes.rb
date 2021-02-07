@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :members
   devise_for :admins
+  resources :books, :borrows, :members
 
   get 'borrows/index'
   get 'borrows/show'
@@ -14,6 +15,6 @@ Rails.application.routes.draw do
   get 'books/borrow'
 
   root to: 'welcome#index'
-  resources :books, :borrows, :members
+
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

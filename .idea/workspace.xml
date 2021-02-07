@@ -12,10 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="59f973df-546a-40ba-b0d9-d4ad1289c5fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/members/registrations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/members/registrations/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/client_side_validations.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/client_side_validations.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/members/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/members/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +174,8 @@
       <workItem from="1609868283351" duration="5461000" />
       <workItem from="1610275373045" duration="3765000" />
       <workItem from="1611487030453" duration="2798000" />
-      <workItem from="1612681694506" duration="2195000" />
+      <workItem from="1612681694506" duration="2911000" />
+      <workItem from="1612686366018" duration="2484000" />
     </task>
     <servers />
   </component>
