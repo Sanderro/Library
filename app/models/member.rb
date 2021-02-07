@@ -3,8 +3,8 @@ class Member < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
   :recoverable, :rememberable, :validatable
-  validates :firstname, length: { maximum: 20}
-  validates :lastname, length: { maximum: 20}
+  validates :firstname, length: { maximum: 20}, presence: true
+  validates :lastname, length: { maximum: 20}, presence: true
   validates :email, presence: true, uniqueness: true
   validates :email, format: Devise.email_regexp
 end
